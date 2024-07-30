@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url('https://s6web-prod.goindigo.in/content/dam/s6web/in/en/assets/homepage/Splash%20Screen.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

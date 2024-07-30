@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import FlightStatus from './Components/FlightStatus';
+import SearchFlight from "./Components/SearchFlight";
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToastContainer
+        position="top-center"
+        style={{ width: "auto", height: "auto", fontSize: "15px" }}
+      />
+      <Navbar style={{ position: "fixed" }} />
+      <FlightStatus />
+      <div style={{ overflowY: "scroll", height: "500px" }}>
+        <SearchFlight />
+      </div>
     </div>
   );
 }
