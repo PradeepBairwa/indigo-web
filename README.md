@@ -55,7 +55,7 @@ git clone https://github.com/PradeepBairwa/indigo-web
 cd indigo
 
 ### Screenshorts
-1. **Screenshots**:`../indigo/public/images/Homepage.png`,`../indigo/public/images/Search.png`,`../indigo/public/images/flight-status.png`,`../indigo/public/images/Push-Notification.png`
+1. **Screenshots**:`./public/images/Homepage.png`,`./public/images/Search.png`,`./public/images/flight-status.png`,`./public/images/Push-Notification.png`
 
 
 
