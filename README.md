@@ -14,6 +14,23 @@ This project consists of two primary services:
 - Efficient message queue handling using Kafka 
 - Storage support for   PostgreSQL
 
+## Libraries Used
+
+### Backend (Java)
+- **Spring Boot**: Application framework
+- **Spring Data JPA**: Database interactions
+- **Spring Kafka / RabbitMQ**: Messaging
+- **Lombok**: Reducing boilerplate code
+- **Jackson**: JSON processing
+
+### Frontend (React)
+- **React**: JavaScript library for building user interfaces
+- **Material-UI (MUI)**: React components for faster and easier web development
+- **Axios**: HTTP client for making requests
+- **React Router**: Navigation
+- **sockjs-client**: Websocket
+- **@stomp/stompjs**: Websocket
+
 ## Technologies Used
 
 - **Backend**: Java
@@ -36,6 +53,10 @@ This project consists of two primary services:
 ```bash
 git clone https://github.com/PradeepBairwa/indigo-web
 cd indigo
+
+### Screenshorts
+1. **Screenshots**:`../indigo/public/images/Homepage.png`,`../indigo/public/images/Search.png`,`../indigo/public/images/flight-status.png`,`../indigo/public/images/Push-Notification.png`
+
 
 
 
