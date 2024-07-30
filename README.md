@@ -19,9 +19,11 @@ This project consists of two primary services:
 ### Backend (Java)
 - **Spring Boot**: Application framework
 - **Spring Data JPA**: Database interactions
-- **Spring Kafka / RabbitMQ**: Messaging
+- **Spring Kafka**: Messaging
 - **Lombok**: Reducing boilerplate code
 - **Jackson**: JSON processing
+- **postgresql**: PostgreSQL
+- **spring-boot-starter-websocket** : Websocket
 
 ### Frontend (React)
 - **React**: JavaScript library for building user interfaces
